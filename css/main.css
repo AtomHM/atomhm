@@ -126,15 +126,24 @@ background: #F7F7F7;
 padding-bottom: 120px;
 }
 .about_item_l {
-		float: left;
-	padding: 0;
-	margin: 0;
-	display: block;
-	width: 570px;
+	
+	margin-top: : 1px;
+	width: 320px;
+	padding-top: 1px; 
+	
 }
 .about_item_l h3 {
 	text-align: right;
+	float:top;
+	margin: 1px;
+	padding-top: 2px;
 }
+
 .about_item_l p {
+	color: #777777;
+	float: right;
+	
 	text-align: right;
+	line-height: 1.8em;
 }
+
