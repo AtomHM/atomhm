@@ -19,7 +19,7 @@ header {
 	height: 100vh;
 }
 .container {
-width: 920px;
+width: 960px;
 margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ h1 {
 	margin: 10px;
 }
 .title {
-	padding-top: 10px;
+	padding-top: 80px;
 }
 .button {
 	background: #FED136;
@@ -80,4 +80,61 @@ h1 {
 	margin: 0 auto;
 	display: block;
 	margin-top: 60px;
+}
+.title h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+}
+.title p {
+	color: #777777;
+	font-size: 15px;
+	margin-bottom: 70px;
+	text-align: center;
+	padding: 0;
+}
+.services h3 {
+	font-size: 18px;
+	text-align: center;
+	margin: 10px;
+	}
+.services_item {
+	width: 300px;
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+.services {
+	padding-bottom: 80px;
+	padding-top: 
+
+}
+.services_item p {
+	color: #777777;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.8em;
+}
+.works img {
+	float: left;
+	margin-left: 23px;
+}
+.portfolio {
+background: #F7F7F7;
+padding-bottom: 120px;
+}
+.about_item_l {
+		float: left;
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 570px;
+}
+.about_item_l h3 {
+	text-align: right;
+}
+.about_item_l p {
+	text-align: right;
 }
