@@ -172,25 +172,28 @@ padding-bottom: 120px;
 td {
 	display: inline-table;
 }
-footer {
-	color: #777777;
+footer p{
+	color: #FFD155;
+	background: #767676;
+	margin: 0px;
 	font-size: 14px;
 	text-align: center;
 }
 #toTop {
-width:40px;
-border-radius: 3px;
-border:1px solid #ccc;
-background:#f7f7f7;
+width:80px;
+border-radius: 4px;
+border:1px solid #121018;
+background:#FFCF24;
 text-align:center;
-padding:3px;
+padding:4px;
 position:fixed;
-bottom:30px;
-right:20px;
+bottom:50px;
+right:30px;
 cursor:pointer;
 display:none;
-color:#777777;
+color:#121018;
 font-family:arial;
 font-size:14px;
+font-weight: 800;
 opacity: 0.7;
 }

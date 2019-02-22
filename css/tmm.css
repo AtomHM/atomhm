@@ -1,0 +1,81 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+div {
+box-sizing: border-box;
+}
+header {
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+.container {
+width: 960px;
+margin: 0 auto;
+}
+.logo {
+	float: left;
+	margin-top: 45px;
+}
+nav {
+	float: right;
+	margin-top: 45px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block; 
+}
+.menu li {
+	float: left;
+	display: block; 
+	font-size: 20px;
+}
+.menu a {
+color: #fff;
+font-size: 16px;
+text-decoration: none;
+text-transform: uppercase;
+margin-right: 40px;
+}
+.map {
+	padding: 150px 0px 0px 0px;
+	display: block;
+	width: 400px;
+	float: left;
+}
+.adress {
+	padding: 0px 0px 0px 5px;
+	margin: 82px 0px 0px 20px;
+	display: block;
+	width: 380px;
+	height: 256px;
+	float: left;
+	background: #FFEAB6;
+	opacity: 0.6;
+}
+.adress h2 {
+	font-size: 17px;
+	margin-bottom: 4px;
+	float: centre;
+	text-align: center;
+	padding: 0;
+	font-weight: 800;
+}
+.adress p {
+	color: #0C0C13;
+	font-size: 16px;
+	margin-bottom: 4px;
+	line-height: 1.8em;
+	text-align: left;
+	padding: 0;
+	font-weight: 600;
+}
+footer p{
+	color: #FFD155;
+	background: #767676;
+	margin: 0px;
+	font-size: 14px;
+	text-align: center;
+}
