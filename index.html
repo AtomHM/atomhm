@@ -5,9 +5,38 @@
 	<title>Golden site</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="icon" type="image/x-icon" href="img/logo.png">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
 </head>
 
-
+<DIV ID="toTop"> ^ Up </DIV>
 <body>
 	<header>
 		<div class="container">
@@ -190,6 +219,5 @@
 	</footer>
 
 	</body>
-	<a href="#" title="TO TOP" class="topbutton">^Up</a>
 </html>
 
